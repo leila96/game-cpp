@@ -13,4 +13,4 @@ game.o: game/game.cpp game/game.h
 	$(CC) $(CCFLAGS) -c game/game.cpp
 
 clean:
-	del *.o output *.exe
+	del *.o *.exe
